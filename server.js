@@ -1,3 +1,4 @@
+require("dotenv").config(); // Load .env sebelum require lain
 const express = require("express");
 const cors = require("cors");
 const app = express();
@@ -5,9 +6,13 @@ app.use(cors());
 app.use(express.json()); // Agar bisa menerima JSON body
 
 // Simple API key middleware
-const API_KEY = process.env.API_KEY || "secret123";
+const API_KEY = process.env.API_KEY || "devaamandabackendnodejs";
 app.use((req, res, next) => {
-    if (req.query.key && req.query.key === API_KEY) {
+    // Debug log untuk cek key
+    // console.log('API_KEY dari env:', process.env.API_KEY);
+    // console.log('Key dari request:', req.query.key, req.headers["x-api-key"]);
+    const key = req.query.key || req.headers["x-api-key"];
+    if (key && key === API_KEY) {
         next();
     } else {
         res.status(401).json({
