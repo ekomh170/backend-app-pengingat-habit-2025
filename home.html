@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Backend API Pengingat Habit 2025</title>
+        <style>
+            body {
+                font-family: "Segoe UI", Arial, sans-serif;
+                background: linear-gradient(120deg, #f7f7f7 60%, #e3f0ff 100%);
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 420px;
+                margin: 60px auto;
+                background: #fff;
+                border-radius: 14px;
+                box-shadow: 0 4px 24px #0002;
+                padding: 32px 28px 24px 28px;
+                text-align: center;
+            }
+            h1 {
+                color: #007bff;
+                margin-bottom: 10px;
+                font-size: 1.7rem;
+                letter-spacing: 1px;
+            }
+            .author {
+                color: #444;
+                font-size: 1.05rem;
+                margin-bottom: 28px;
+                font-weight: 500;
+                letter-spacing: 0.2px;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0 auto 0 auto;
+                max-width: 340px;
+            }
+            ul li {
+                background: #f0f6ff;
+                border-left: 4px solid #007bff;
+                margin-bottom: 14px;
+                padding: 12px 16px;
+                border-radius: 6px;
+                font-size: 1.04rem;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .endpoint {
+                color: #007bff;
+                font-family: "Fira Mono", "Consolas", monospace;
+                font-weight: bold;
+                font-size: 1.01rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Backend API Pengingat Habit 2025</h1>
+            <div class="author">Developer - Eko Muchamad Haryono</div>
+            <ul>
+                <li><span class="endpoint">GET /all?key=API_KEY</span></li>
+                <li><span class="endpoint">GET /random</span></li>
+                <li><span class="endpoint">GET /filter?type=...</span></li>
+                <li><span class="endpoint">GET /detail/:id</span></li>
+                <li><span class="endpoint">GET /shuffled</span></li>
+                <li><span class="endpoint">POST /regenerate-key</span></li>
+            </ul>
+        </div>
+    </body>
+</html>
