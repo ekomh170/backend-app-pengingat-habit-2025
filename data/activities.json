@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "activity": "Drink a glass of water",
+        "type": "health",
+        "description": "Hydrate your body with a glass of water.",
+        "duration": "daily",
+        "keywords_picture": "water, health",
+        "link": "https://www.cdc.gov/healthyweight/healthy_eating/water-and-healthier-drinks.html"
+    },
+    {
+        "id": 2,
+        "activity": "Morning stretch",
+        "type": "health",
+        "description": "Do a 5-minute full body stretch after waking up.",
+        "duration": "daily",
+        "keywords_picture": "stretch, morning",
+        "link": "https://www.healthline.com/health/fitness-exercise/morning-stretches"
+    },
+    {
+        "id": 3,
+        "activity": "Write a gratitude note",
+        "type": "reflection",
+        "description": "List 3 things you are grateful for today.",
+        "duration": "daily",
+        "keywords_picture": "gratitude, reflection",
+        "link": "https://www.mindful.org/the-science-of-gratitude/"
+    },
+    {
+        "id": 4,
+        "activity": "Read a book",
+        "type": "education",
+        "description": "Read at least 5 pages of a book.",
+        "duration": "daily",
+        "keywords_picture": "book, read",
+        "link": "https://www.goodreads.com/"
+    },
+    {
+        "id": 5,
+        "activity": "Take a 10-minute walk",
+        "type": "health",
+        "description": "Walk outside for fresh air and movement.",
+        "duration": "daily",
+        "keywords_picture": "walk, health",
+        "link": "https://www.healthline.com/health/benefits-of-walking"
+    },
+    {
+        "id": 6,
+        "activity": "Meditate",
+        "type": "relaxation",
+        "description": "Practice mindfulness meditation for 5 minutes.",
+        "duration": "daily",
+        "keywords_picture": "meditate, relax",
+        "link": "https://www.headspace.com/meditation/meditation-for-beginners"
+    },
+    {
+        "id": 7,
+        "activity": "Compliment someone",
+        "type": "social",
+        "description": "Give a genuine compliment to a friend or family member.",
+        "duration": "daily",
+        "keywords_picture": "compliment, social",
+        "link": "https://www.psychologytoday.com/us/blog/the-moment-youth/201902/the-power-genuine-compliments"
+    },
+    {
+        "id": 8,
+        "activity": "Tidy your workspace",
+        "type": "productivity",
+        "description": "Organize your desk or work area.",
+        "duration": "daily",
+        "keywords_picture": "tidy, workspace",
+        "link": "https://www.mindtools.com/a4wo118/organizing-your-workspace"
+    },
+    {
+        "id": 9,
+        "activity": "Eat a fruit",
+        "type": "health",
+        "description": "Add a serving of fruit to your meal.",
+        "duration": "daily",
+        "keywords_picture": "fruit, health",
+        "link": "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/fruits-and-vegetables/"
+    },
+    {
+        "id": 10,
+        "activity": "Smile at yourself in the mirror",
+        "type": "reflection",
+        "description": "Boost your mood with a smile.",
+        "duration": "daily",
+        "keywords_picture": "smile, reflection",
+        "link": "https://www.healthline.com/health/benefits-of-smiling"
+    },
+    {
+        "id": 11,
+        "activity": "Practice deep breathing",
+        "type": "relaxation",
+        "description": "Take 10 deep, slow breaths.",
+        "duration": "daily",
+        "keywords_picture": "breath, relax",
+        "link": "https://www.verywellmind.com/abdominal-breathing-2584115"
+    },
+    {
+        "id": 12,
+        "activity": "Write a short journal entry",
+        "type": "reflection",
+        "description": "Reflect on your day in a journal.",
+        "duration": "daily",
+        "keywords_picture": "journal, reflection",
+        "link": "https://positivepsychology.com/benefits-of-journaling/"
+    },
+    {
+        "id": 13,
+        "activity": "Help someone with a small task",
+        "type": "social",
+        "description": "Offer help to a friend, family, or colleague.",
+        "duration": "weekly",
+        "keywords_picture": "help, social",
+        "link": "https://www.psychologytoday.com/us/blog/the-meaning-life/201311/the-benefits-giving"
+    },
+    {
+        "id": 14,
+        "activity": "Plan your day",
+        "type": "productivity",
+        "description": "Write down your top 3 priorities for today.",
+        "duration": "daily",
+        "keywords_picture": "plan, productivity",
+        "link": "https://todoist.com/productivity-methods"
+    },
+    {
+        "id": 15,
+        "activity": "Read a motivational quote",
+        "type": "reflection",
+        "description": "Find and reflect on a positive quote.",
+        "duration": "daily",
+        "keywords_picture": "quote, motivation",
+        "link": "https://www.brainyquote.com/topics/motivational-quotes"
+    },
+    {
+        "id": 16,
+        "activity": "Do 10 squats",
+        "type": "health",
+        "description": "Simple bodyweight exercise for strength.",
+        "duration": "daily",
+        "keywords_picture": "squat, exercise",
+        "link": "https://www.healthline.com/health/fitness-exercise/squats-benefits"
+    },
+    {
+        "id": 17,
+        "activity": "Call or message a friend",
+        "type": "social",
+        "description": "Connect with someone you care about.",
+        "duration": "weekly",
+        "keywords_picture": "call, friend",
+        "link": "https://www.verywellmind.com/the-importance-of-friendship-3024371"
+    },
+    {
+        "id": 18,
+        "activity": "Organize your files",
+        "type": "productivity",
+        "description": "Sort and clean up your digital files.",
+        "duration": "weekly",
+        "keywords_picture": "organize, files",
+        "link": "https://www.pcmag.com/how-to/how-to-organize-your-digital-life"
+    },
+    {
+        "id": 19,
+        "activity": "Water your plants",
+        "type": "home",
+        "description": "Take care of your houseplants.",
+        "duration": "weekly",
+        "keywords_picture": "plants, home",
+        "link": "https://www.gardendesign.com/how-to/watering.html"
+    },
+    {
+        "id": 20,
+        "activity": "Try a new healthy recipe",
+        "type": "health",
+        "description": "Cook something nutritious.",
+        "duration": "monthly",
+        "keywords_picture": "cook, healthy",
+        "link": "https://www.eatingwell.com/recipes/17952/healthy-meals/"
+    },
+    {
+        "id": 21,
+        "activity": "Practice positive affirmations",
+        "type": "reflection",
+        "description": "Say 3 positive things about yourself.",
+        "duration": "daily",
+        "keywords_picture": "affirmation, positive",
+        "link": "https://www.mindtools.com/a4wo118/positive-affirmations"
+    },
+    {
+        "id": 22,
+        "activity": "Do a random act of kindness",
+        "type": "social",
+        "description": "Do something nice for someone unexpectedly.",
+        "duration": "weekly",
+        "keywords_picture": "kindness, social",
+        "link": "https://www.randomactsofkindness.org/"
+    },
+    {
+        "id": 23,
+        "activity": "Declutter a small area",
+        "type": "home",
+        "description": "Clean a drawer or shelf.",
+        "duration": "weekly",
+        "keywords_picture": "declutter, home",
+        "link": "https://www.becomingminimalist.com/declutter/"
+    },
+    {
+        "id": 24,
+        "activity": "Practice a hobby",
+        "type": "recreational",
+        "description": "Spend 15 minutes on a favorite hobby.",
+        "duration": "weekly",
+        "keywords_picture": "hobby, fun",
+        "link": "https://www.lifehack.org/articles/lifestyle/50-ideas-for-a-new-hobby.html"
+    },
+    {
+        "id": 25,
+        "activity": "Take a tech break",
+        "type": "relaxation",
+        "description": "Spend 30 minutes without screens.",
+        "duration": "daily",
+        "keywords_picture": "tech, break",
+        "link": "https://www.healthline.com/health/mental-health/benefits-of-digital-detox"
+    },
+    {
+        "id": 26,
+        "activity": "Do 5 push-ups",
+        "type": "health",
+        "description": "Quick upper body exercise.",
+        "duration": "daily",
+        "keywords_picture": "pushup, exercise",
+        "link": "https://www.healthline.com/health/exercise-fitness/pushups-every-day"
+    },
+    {
+        "id": 27,
+        "activity": "Listen to uplifting music",
+        "type": "relaxation",
+        "description": "Play a song that makes you happy.",
+        "duration": "daily",
+        "keywords_picture": "music, relax",
+        "link": "https://www.health.harvard.edu/mind-and-mood/how-music-can-help-you-heal"
+    },
+    {
+        "id": 28,
+        "activity": "Make your bed",
+        "type": "home",
+        "description": "Start your day with a tidy bed.",
+        "duration": "daily",
+        "keywords_picture": "bed, tidy",
+        "link": "https://www.sleepfoundation.org/sleep-hygiene/should-you-make-your-bed"
+    },
+    {
+        "id": 29,
+        "activity": "Learn a new word",
+        "type": "education",
+        "description": "Expand your vocabulary.",
+        "duration": "daily",
+        "keywords_picture": "word, learn",
+        "link": "https://www.merriam-webster.com/word-of-the-day"
+    },
+    {
+        "id": 30,
+        "activity": "Try a breathing exercise",
+        "type": "relaxation",
+        "description": "Practice box breathing for 2 minutes.",
+        "duration": "daily",
+        "keywords_picture": "breathing, relax",
+        "link": "https://www.medicalnewstoday.com/articles/324417"
+    },
+    {
+        "id": 31,
+        "activity": "Eat a healthy snack",
+        "type": "health",
+        "description": "Choose a nutritious snack today.",
+        "duration": "daily",
+        "keywords_picture": "snack, health",
+        "link": "https://www.healthline.com/nutrition/29-healthy-snacks-for-weight-loss"
+    },
+    {
+        "id": 32,
+        "activity": "Reflect on your goals",
+        "type": "reflection",
+        "description": "Review your progress and set intentions.",
+        "duration": "weekly",
+        "keywords_picture": "goals, reflection",
+        "link": "https://jamesclear.com/goal-setting"
+    },
+    {
+        "id": 33,
+        "activity": "Do a quick clean-up",
+        "type": "home",
+        "description": "Spend 5 minutes tidying up.",
+        "duration": "daily",
+        "keywords_picture": "clean, home",
+        "link": "https://www.apartmenttherapy.com/5-minute-cleanup-367246"
+    },
+    {
+        "id": 34,
+        "activity": "Practice mindful eating",
+        "type": "health",
+        "description": "Eat a meal slowly and with attention.",
+        "duration": "daily",
+        "keywords_picture": "mindful, eating",
+        "link": "https://www.healthline.com/nutrition/mindful-eating-guide"
+    },
+    {
+        "id": 35,
+        "activity": "Send a thank you message",
+        "type": "social",
+        "description": "Express gratitude to someone.",
+        "duration": "weekly",
+        "keywords_picture": "thank you, social",
+        "link": "https://www.psychologytoday.com/us/blog/the-moment-youth/201812/the-power-saying-thank-you"
+    },
+    {
+        "id": 36,
+        "activity": "Try a new fruit or vegetable",
+        "type": "health",
+        "description": "Add variety to your diet.",
+        "duration": "weekly",
+        "keywords_picture": "fruit, vegetable",
+        "link": "https://www.choosemyplate.gov/eathealthy/fruits"
+    },
+    {
+        "id": 37,
+        "activity": "Do a puzzle or brain game",
+        "type": "education",
+        "description": "Challenge your mind for 10 minutes.",
+        "duration": "weekly",
+        "keywords_picture": "puzzle, brain",
+        "link": "https://www.lumosity.com/en/"
+    },
+    {
+        "id": 38,
+        "activity": "Practice yoga",
+        "type": "health",
+        "description": "Do a short yoga routine.",
+        "duration": "weekly",
+        "keywords_picture": "yoga, health",
+        "link": "https://www.yogajournal.com/poses/yoga-for/beginners/"
+    },
+    {
+        "id": 39,
+        "activity": "Draw or doodle",
+        "type": "recreational",
+        "description": "Express yourself creatively.",
+        "duration": "weekly",
+        "keywords_picture": "draw, art",
+        "link": "https://www.skillshare.com/en/blog/10-easy-drawing-ideas-for-beginners/"
+    },
+    {
+        "id": 40,
+        "activity": "Reflect on a positive memory",
+        "type": "reflection",
+        "description": "Recall a happy moment.",
+        "duration": "daily",
+        "keywords_picture": "memory, positive",
+        "link": "https://www.psychologytoday.com/us/blog/the-athletes-way/201307/positive-memories-are-key-happiness"
+    },
+    {
+        "id": 41,
+        "activity": "Practice good posture",
+        "type": "health",
+        "description": "Sit or stand up straight for 5 minutes.",
+        "duration": "daily",
+        "keywords_picture": "posture, health",
+        "link": "https://www.healthline.com/health/how-to-improve-posture"
+    },
+    {
+        "id": 42,
+        "activity": "Read an educational article",
+        "type": "education",
+        "description": "Learn something new online.",
+        "duration": "weekly",
+        "keywords_picture": "article, education",
+        "link": "https://www.khanacademy.org/"
+    },
+    {
+        "id": 43,
+        "activity": "Say something positive to yourself",
+        "type": "reflection",
+        "description": "Practice self-kindness.",
+        "duration": "daily",
+        "keywords_picture": "positive, self",
+        "link": "https://www.psychologytoday.com/us/basics/self-talk"
+    },
+    {
+        "id": 44,
+        "activity": "Do 10 jumping jacks",
+        "type": "health",
+        "description": "Quick cardio exercise.",
+        "duration": "daily",
+        "keywords_picture": "jumping jack, exercise",
+        "link": "https://www.healthline.com/health/fitness-exercise/jumping-jacks-benefits"
+    },
+    {
+        "id": 45,
+        "activity": "Organize your wallet or bag",
+        "type": "home",
+        "description": "Remove unnecessary items.",
+        "duration": "monthly",
+        "keywords_picture": "organize, bag",
+        "link": "https://www.thespruce.com/how-to-organize-your-purse-2648002"
+    },
+    {
+        "id": 46,
+        "activity": "Try a new healthy drink",
+        "type": "health",
+        "description": "Make a smoothie or infused water.",
+        "duration": "monthly",
+        "keywords_picture": "drink, healthy",
+        "link": "https://www.healthline.com/nutrition/healthy-drinks"
+    },
+    {
+        "id": 47,
+        "activity": "Practice digital detox",
+        "type": "relaxation",
+        "description": "Stay offline for 1 hour.",
+        "duration": "weekly",
+        "keywords_picture": "detox, digital",
+        "link": "https://www.verywellmind.com/why-and-how-to-do-a-digital-detox-4771321"
+    },
+    {
+        "id": 48,
+        "activity": "Do a quick gratitude check",
+        "type": "reflection",
+        "description": "Think of one thing you are grateful for.",
+        "duration": "daily",
+        "keywords_picture": "gratitude, check",
+        "link": "https://www.psychologytoday.com/us/basics/gratitude"
+    },
+    {
+        "id": 49,
+        "activity": "Try a new exercise",
+        "type": "health",
+        "description": "Experiment with a new movement.",
+        "duration": "weekly",
+        "keywords_picture": "exercise, new",
+        "link": "https://www.self.com/gallery/essential-bodyweight-exercises"
+    },
+    {
+        "id": 50,
+        "activity": "Read a science fact",
+        "type": "education",
+        "description": "Learn a new science fact.",
+        "duration": "daily",
+        "keywords_picture": "science, learn",
+        "link": "https://www.sciencefocus.com/future-technology/amazing-science-facts/"
+    },
+    {
+        "id": 51,
+        "activity": "Do a quick doodle",
+        "type": "recreational",
+        "description": "Doodle for fun.",
+        "duration": "weekly",
+        "keywords_picture": "doodle, art",
+        "link": "https://www.creativebloq.com/inspiration/doodle-ideas"
+    },
+    {
+        "id": 52,
+        "activity": "Try a new tea",
+        "type": "recreational",
+        "description": "Brew a new tea.",
+        "duration": "monthly",
+        "keywords_picture": "tea, try",
+        "link": "https://www.healthline.com/nutrition/types-of-tea"
+    },
+    {
+        "id": 53,
+        "activity": "Do a quick meditation",
+        "type": "relaxation",
+        "description": "1-minute meditation.",
+        "duration": "daily",
+        "keywords_picture": "meditation, relax",
+        "link": "https://www.mindful.org/a-five-minute-breathing-meditation/"
+    },
+    {
+        "id": 54,
+        "activity": "Try a new vegetable",
+        "type": "health",
+        "description": "Eat a new vegetable.",
+        "duration": "monthly",
+        "keywords_picture": "vegetable, health",
+        "link": "https://www.hsph.harvard.edu/nutritionsource/what-should-you-eat/vegetables-and-fruits/"
+    },
+    {
+        "id": 55,
+        "activity": "Do a quick reflection",
+        "type": "reflection",
+        "description": "Reflect for 2 minutes.",
+        "duration": "daily",
+        "keywords_picture": "reflection, quick",
+        "link": "https://positivepsychology.com/self-reflection/"
+    },
+    {
+        "id": 56,
+        "activity": "Try a new podcast",
+        "type": "education",
+        "description": "Listen to a podcast.",
+        "duration": "weekly",
+        "keywords_picture": "podcast, learn",
+        "link": "https://www.npr.org/podcasts/"
+    },
+    {
+        "id": 57,
+        "activity": "Try a new language word",
+        "type": "education",
+        "description": "Learn a word in another language.",
+        "duration": "daily",
+        "keywords_picture": "language, learn",
+        "link": "https://www.duolingo.com/"
+    },
+    {
+        "id": 58,
+        "activity": "Do a quick self-check",
+        "type": "reflection",
+        "description": "Check in with yourself.",
+        "duration": "daily",
+        "keywords_picture": "self-check, reflection",
+        "link": "https://www.verywellmind.com/how-to-practice-self-reflection-5184566"
+    },
+    {
+        "id": 59,
+        "activity": "Try a new dessert",
+        "type": "recreational",
+        "description": "Eat a new dessert.",
+        "duration": "monthly",
+        "keywords_picture": "dessert, try",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/dessert-recipes"
+    },
+    {
+        "id": 60,
+        "activity": "Do a quick hand exercise",
+        "type": "health",
+        "description": "Stretch your hands.",
+        "duration": "daily",
+        "keywords_picture": "hand, exercise",
+        "link": "https://www.healthline.com/health/fitness-exercise/hand-exercises"
+    },
+    {
+        "id": 61,
+        "activity": "Try a new writing prompt",
+        "type": "recreational",
+        "description": "Write from a prompt.",
+        "duration": "weekly",
+        "keywords_picture": "writing, prompt",
+        "link": "https://thinkwritten.com/365-creative-writing-prompts/"
+    },
+    {
+        "id": 62,
+        "activity": "Do a quick memory game",
+        "type": "education",
+        "description": "Play a memory game.",
+        "duration": "weekly",
+        "keywords_picture": "memory, game",
+        "link": "https://www.memory-improvement-tips.com/free-memory-games.html"
+    },
+    {
+        "id": 63,
+        "activity": "Try a new salad",
+        "type": "health",
+        "description": "Make a new salad.",
+        "duration": "monthly",
+        "keywords_picture": "salad, health",
+        "link": "https://www.eatingwell.com/recipes/17952/healthy-meals/salads/"
+    },
+    {
+        "id": 64,
+        "activity": "Do a quick positive affirmation",
+        "type": "reflection",
+        "description": "Say a positive affirmation.",
+        "duration": "daily",
+        "keywords_picture": "affirmation, positive",
+        "link": "https://www.verywellmind.com/daily-affirmations-4774092"
+    },
+    {
+        "id": 65,
+        "activity": "Try a new board game",
+        "type": "recreational",
+        "description": "Play a board game.",
+        "duration": "monthly",
+        "keywords_picture": "board game, fun",
+        "link": "https://www.goodhousekeeping.com/life/entertainment/g5159/best-board-games/"
+    },
+    {
+        "id": 66,
+        "activity": "Do a quick yoga pose",
+        "type": "health",
+        "description": "Try a yoga pose.",
+        "duration": "daily",
+        "keywords_picture": "yoga, pose",
+        "link": "https://www.yogajournal.com/poses/yoga-for/beginners/"
+    },
+    {
+        "id": 67,
+        "activity": "Try a new smoothie",
+        "type": "health",
+        "description": "Make a smoothie.",
+        "duration": "monthly",
+        "keywords_picture": "smoothie, health",
+        "link": "https://www.healthline.com/nutrition/healthy-smoothie-recipes"
+    },
+    {
+        "id": 68,
+        "activity": "Do a quick laugh",
+        "type": "relaxation",
+        "description": "Laugh for a moment.",
+        "duration": "daily",
+        "keywords_picture": "laugh, relax",
+        "link": "https://www.helpguide.org/articles/mental-health/laughter-is-the-best-medicine.htm"
+    },
+    {
+        "id": 69,
+        "activity": "Try a new soup",
+        "type": "recreational",
+        "description": "Cook a soup.",
+        "duration": "monthly",
+        "keywords_picture": "soup, try",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/soup-recipes"
+    },
+    {
+        "id": 70,
+        "activity": "Do a quick walk",
+        "type": "health",
+        "description": "Walk for 5 minutes.",
+        "duration": "daily",
+        "keywords_picture": "walk, quick",
+        "link": "https://www.verywellfit.com/benefits-of-walking-3435820"
+    },
+    {
+        "id": 71,
+        "activity": "Try a new craft",
+        "type": "recreational",
+        "description": "Make a craft.",
+        "duration": "monthly",
+        "keywords_picture": "craft, try",
+        "link": "https://www.goodhousekeeping.com/home/craft-ideas/how-to/g1389/diy-craft-projects/"
+    },
+    {
+        "id": 72,
+        "activity": "Do a quick check-in",
+        "type": "reflection",
+        "description": "Check your feelings.",
+        "duration": "daily",
+        "keywords_picture": "check-in, reflection",
+        "link": "https://www.verywellmind.com/how-to-practice-self-reflection-5184566"
+    },
+    {
+        "id": 73,
+        "activity": "Try a new breakfast",
+        "type": "health",
+        "description": "Eat a new breakfast.",
+        "duration": "monthly",
+        "keywords_picture": "breakfast, health",
+        "link": "https://www.eatingwell.com/recipes/17952/healthy-meals/breakfast-brunch/"
+    },
+    {
+        "id": 74,
+        "activity": "Do a quick smile",
+        "type": "reflection",
+        "description": "Smile for yourself.",
+        "duration": "daily",
+        "keywords_picture": "smile, reflection",
+        "link": "https://www.healthline.com/health/benefits-of-smiling"
+    },
+    {
+        "id": 75,
+        "activity": "Try a new exercise video",
+        "type": "health",
+        "description": "Follow a video.",
+        "duration": "weekly",
+        "keywords_picture": "exercise, video",
+        "link": "https://www.youtube.com/user/yogawithadriene"
+    },
+    {
+        "id": 76,
+        "activity": "Do a quick thank you note",
+        "type": "reflection",
+        "description": "Write a thank you note.",
+        "duration": "daily",
+        "keywords_picture": "thank you, note",
+        "link": "https://www.psychologytoday.com/us/blog/the-moment-youth/201812/the-power-saying-thank-you"
+    },
+    {
+        "id": 77,
+        "activity": "Try a new soup recipe",
+        "type": "recreational",
+        "description": "Cook a new soup.",
+        "duration": "monthly",
+        "keywords_picture": "soup, recipe",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/soup-recipes"
+    },
+    {
+        "id": 78,
+        "activity": "Do a quick positive thought",
+        "type": "reflection",
+        "description": "Think a positive thought.",
+        "duration": "daily",
+        "keywords_picture": "positive, thought",
+        "link": "https://positivepsychology.com/positive-thinking-apps/"
+    },
+    {
+        "id": 79,
+        "activity": "Try a new fruit juice",
+        "type": "health",
+        "description": "Make a juice.",
+        "duration": "monthly",
+        "keywords_picture": "juice, fruit",
+        "link": "https://www.healthline.com/nutrition/healthy-juices"
+    },
+    {
+        "id": 80,
+        "activity": "Do a quick self-hug",
+        "type": "reflection",
+        "description": "Give yourself a hug.",
+        "duration": "daily",
+        "keywords_picture": "hug, self",
+        "link": "https://www.psychologytoday.com/us/blog/the-moment-youth/201902/the-power-genuine-compliments"
+    },
+    {
+        "id": 81,
+        "activity": "Try a new sandwich",
+        "type": "recreational",
+        "description": "Make a sandwich.",
+        "duration": "monthly",
+        "keywords_picture": "sandwich, try",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/sandwich-recipes"
+    },
+    {
+        "id": 82,
+        "activity": "Do a quick clap",
+        "type": "relaxation",
+        "description": "Clap your hands.",
+        "duration": "daily",
+        "keywords_picture": "clap, relax",
+        "link": "https://www.healthline.com/health/benefits-of-clapping-hands"
+    },
+    {
+        "id": 83,
+        "activity": "Try a new soup ingredient",
+        "type": "recreational",
+        "description": "Add something new to soup.",
+        "duration": "monthly",
+        "keywords_picture": "soup, ingredient",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/soup-recipes"
+    },
+    {
+        "id": 84,
+        "activity": "Do a quick positive message",
+        "type": "reflection",
+        "description": "Send a positive message.",
+        "duration": "daily",
+        "keywords_picture": "positive, message",
+        "link": "https://www.verywellmind.com/positive-thinking-in-daily-life-3144815"
+    },
+    {
+        "id": 85,
+        "activity": "Try a new salad dressing",
+        "type": "health",
+        "description": "Make a dressing.",
+        "duration": "monthly",
+        "keywords_picture": "salad, dressing",
+        "link": "https://www.eatingwell.com/recipes/17952/healthy-meals/salads/"
+    },
+    {
+        "id": 86,
+        "activity": "Do a quick happy dance",
+        "type": "relaxation",
+        "description": "Dance for joy.",
+        "duration": "daily",
+        "keywords_picture": "happy, dance",
+        "link": "https://www.healthline.com/health/benefits-of-dancing"
+    },
+    {
+        "id": 87,
+        "activity": "Try a new fruit mix",
+        "type": "health",
+        "description": "Mix fruits.",
+        "duration": "monthly",
+        "keywords_picture": "fruit, mix",
+        "link": "https://www.healthline.com/nutrition/healthy-fruit-salad"
+    },
+    {
+        "id": 88,
+        "activity": "Do a quick positive review",
+        "type": "reflection",
+        "description": "Review something positively.",
+        "duration": "daily",
+        "keywords_picture": "positive, review",
+        "link": "https://www.verywellmind.com/positive-thinking-in-daily-life-3144815"
+    },
+    {
+        "id": 89,
+        "activity": "Try a new soup topping",
+        "type": "recreational",
+        "description": "Add a topping to soup.",
+        "duration": "monthly",
+        "keywords_picture": "soup, topping",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/soup-recipes"
+    },
+    {
+        "id": 90,
+        "activity": "Do a quick positive feedback",
+        "type": "reflection",
+        "description": "Give positive feedback.",
+        "duration": "daily",
+        "keywords_picture": "positive, feedback",
+        "link": "https://www.mindtools.com/a4wo118/positive-affirmations"
+    },
+    {
+        "id": 91,
+        "activity": "Practice mindful walking",
+        "type": "relaxation",
+        "description": "Take a short walk and focus on your surroundings.",
+        "duration": "weekly",
+        "keywords_picture": "mindful, walking",
+        "link": "https://www.mindful.org/daily-mindful-walking-practice/"
+    },
+    {
+        "id": 92,
+        "activity": "Try a new vegetable recipe",
+        "type": "health",
+        "description": "Cook a dish with a vegetable you rarely eat.",
+        "duration": "monthly",
+        "keywords_picture": "vegetable, recipe",
+        "link": "https://www.bbcgoodfood.com/recipes/collection/vegetarian-recipes"
+    },
+    {
+        "id": 93,
+        "activity": "Do a digital clean-up",
+        "type": "productivity",
+        "description": "Delete unused apps or files from your device.",
+        "duration": "monthly",
+        "keywords_picture": "digital, clean-up",
+        "link": "https://www.pcmag.com/how-to/how-to-clean-up-your-computer"
+    },
+    {
+        "id": 94,
+        "activity": "Try a new stretching routine",
+        "type": "health",
+        "description": "Follow a new stretching video or guide.",
+        "duration": "weekly",
+        "keywords_picture": "stretching, routine",
+        "link": "https://www.self.com/gallery/essential-stretches-slideshow"
+    },
+    {
+        "id": 95,
+        "activity": "Write a letter to your future self",
+        "type": "reflection",
+        "description": "Reflect and write a letter to be opened in the future.",
+        "duration": "monthly",
+        "keywords_picture": "letter, future",
+        "link": "https://www.futureme.org/"
+    },
+    {
+        "id": 96,
+        "activity": "Try a new breathing technique",
+        "type": "relaxation",
+        "description": "Practice a new breathing exercise for relaxation.",
+        "duration": "weekly",
+        "keywords_picture": "breathing, technique",
+        "link": "https://www.healthline.com/health/breathing-exercise"
+    },
+    {
+        "id": 97,
+        "activity": "Do a random act of generosity",
+        "type": "social",
+        "description": "Give something (time, help, or item) to someone in need.",
+        "duration": "monthly",
+        "keywords_picture": "generosity, social",
+        "link": "https://www.randomactsofkindness.org/kindness-ideas"
+    },
+    {
+        "id": 98,
+        "activity": "Try a new creative activity",
+        "type": "recreational",
+        "description": "Experiment with painting, music, or another art form.",
+        "duration": "monthly",
+        "keywords_picture": "creative, art",
+        "link": "https://www.skillshare.com/en/blog/creative-hobbies-to-try/"
+    },
+    {
+        "id": 99,
+        "activity": "Practice mindful listening",
+        "type": "reflection",
+        "description": "Listen attentively to someone without interrupting.",
+        "duration": "weekly",
+        "keywords_picture": "mindful, listening",
+        "link": "https://www.mindful.org/mindful-listening/"
+    },
+    {
+        "id": 100,
+        "activity": "Try a new healthy breakfast",
+        "type": "health",
+        "description": "Prepare and enjoy a nutritious breakfast you haven't tried before.",
+        "duration": "monthly",
+        "keywords_picture": "healthy, breakfast",
+        "link": "https://www.eatingwell.com/recipes/17952/healthy-meals/breakfast-brunch/"
+    }
+]
