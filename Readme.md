@@ -11,3 +11,14 @@ Backend API sederhana berbasis Node.js + Express untuk aplikasi pengingat habit/
 - Endpoint: all, detail, random, filter, shuffled, regenerate-key
 - Key hasil regenerate hanya disimpan di database (SQLite), tidak bisa dipakai akses API
 - Siap integrasi ke frontend React, dsb
+
+## Cara Generate API Key
+- Endpoint `/regenerate-key` (POST) bisa diakses siapa saja tanpa API key.
+- Cara generate:
+  - Kirim request POST ke `http://localhost:3001/regenerate-key` (bisa via HTML, Postman, atau curl)
+  - Contoh:
+    ```bash
+    curl -X POST http://localhost:3001/regenerate-key
+    ```
+  - Response akan berisi key baru, contoh: `{ "apiKey": "randomkey123..." }`
+- Key hasil regenerate hanya disimpan di database (SQLite), **tidak bisa dipakai akses API**. Hanya key dari `.env` yang valid untuk akses endpoint lain.
