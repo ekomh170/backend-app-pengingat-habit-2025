@@ -6,6 +6,7 @@ const activities = require("../data/activities.json");
 
 // Ambil 1 aktivitas/habit acak
 exports.getRandomActivity = (req, res) => {
+    res.set("Cache-Control", "no-store"); // Cegah cache agar data random selalu berubah
     const idx = Math.floor(Math.random() * activities.length);
     res.json(activities[idx]);
 };
