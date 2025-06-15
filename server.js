@@ -10,9 +10,12 @@ app.use(express.json()); // Agar bisa menerima JSON body
 const activityRoutes = require("./routes/activityRoutes");
 app.use("/", activityRoutes);
 
-// Serve home.html untuk root URL
+// Serve static files from public directory
+app.use(express.static(path.join(__dirname, "public")));
+
+// Serve home.html from public for root URL
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "home.html"));
+    res.sendFile(path.join(__dirname, "public", "home.html"));
 });
 
 app.listen(3001, () => console.log("API running at http://localhost:3001"));

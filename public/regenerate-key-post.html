@@ -21,20 +21,7 @@
             }
             h2 {
                 text-align: center;
-                color: #333;
-            }
-            label {
-                display: block;
-                margin-bottom: 8px;
-                color: #555;
-            }
-            input[type="text"],
-            input[type="password"] {
-                width: 100%;
-                padding: 8px;
-                margin-bottom: 16px;
-                border-radius: 4px;
-                border: 1px solid #ccc;
+                color: #007bff;
             }
             button {
                 width: 100%;
@@ -67,16 +54,9 @@
     </head>
     <body>
         <div class="container">
-            <h2>Regenerate API Key</h2>
+            <h2>Generate API Key Baru</h2>
             <form id="regenerateForm">
-                <label for="owner">Owner (admin):</label>
-                <input
-                    type="text"
-                    id="owner"
-                    name="owner"
-                    required
-                    placeholder="admin" />
-                <button type="submit">Regenerate</button>
+                <button type="submit">Generate</button>
             </form>
             <div id="result" class="result" style="display: none"></div>
         </div>
@@ -87,19 +67,18 @@
                 e.preventDefault();
                 resultDiv.style.display = "none";
                 resultDiv.className = "result";
-                const owner = document.getElementById("owner").value;
                 try {
                     const res = await fetch("/regenerate-key", {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ owner }),
+                        body: JSON.stringify({}),
                     });
                     const data = await res.json();
                     if (res.ok) {
                         resultDiv.textContent = "API Key baru: " + data.apiKey;
                     } else {
                         resultDiv.textContent =
-                            data.error || "Gagal regenerate API key";
+                            data.error || "Gagal generate API key";
                         resultDiv.className = "result error";
                     }
                     resultDiv.style.display = "block";
