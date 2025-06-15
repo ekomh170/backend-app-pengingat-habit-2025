@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Regenerate API Key</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: #f7f7f7;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 400px;
+                margin: 60px auto;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px #0001;
+                padding: 32px;
+            }
+            h2 {
+                text-align: center;
+                color: #333;
+            }
+            label {
+                display: block;
+                margin-bottom: 8px;
+                color: #555;
+            }
+            input[type="text"],
+            input[type="password"] {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 16px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+            }
+            button {
+                width: 100%;
+                padding: 10px;
+                background: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            button:hover {
+                background: #0056b3;
+            }
+            .result {
+                margin-top: 20px;
+                padding: 12px;
+                background: #e6ffe6;
+                border: 1px solid #b2ffb2;
+                border-radius: 4px;
+                color: #1a7f37;
+                word-break: break-all;
+            }
+            .error {
+                background: #ffe6e6;
+                border: 1px solid #ffb2b2;
+                color: #a11;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Regenerate API Key</h2>
+            <form id="regenerateForm">
+                <label for="owner">Owner (admin):</label>
+                <input
+                    type="text"
+                    id="owner"
+                    name="owner"
+                    required
+                    placeholder="admin" />
+                <button type="submit">Regenerate</button>
+            </form>
+            <div id="result" class="result" style="display: none"></div>
+        </div>
+        <script>
+            const form = document.getElementById("regenerateForm");
+            const resultDiv = document.getElementById("result");
+            form.onsubmit = async (e) => {
+                e.preventDefault();
+                resultDiv.style.display = "none";
+                resultDiv.className = "result";
+                const owner = document.getElementById("owner").value;
+                try {
+                    const res = await fetch("/regenerate-key", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ owner }),
+                    });
+                    const data = await res.json();
+                    if (res.ok) {
+                        resultDiv.textContent = "API Key baru: " + data.apiKey;
+                    } else {
+                        resultDiv.textContent =
+                            data.error || "Gagal regenerate API key";
+                        resultDiv.className = "result error";
+                    }
+                    resultDiv.style.display = "block";
+                } catch (err) {
+                    resultDiv.textContent = "Terjadi error jaringan.";
+                    resultDiv.className = "result error";
+                    resultDiv.style.display = "block";
+                }
+            };
+        </script>
+    </body>
+</html>
