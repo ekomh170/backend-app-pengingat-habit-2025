@@ -63,6 +63,7 @@
                 font-family: "Fira Mono", "Consolas", monospace;
                 font-weight: bold;
                 font-size: 1.01rem;
+                text-decoration: none;
             }
         </style>
     </head>
@@ -71,12 +72,36 @@
             <h1>Backend API Pengingat Habit 2025</h1>
             <div class="author">Developer - Eko Muchamad Haryono</div>
             <ul>
-                <li><span class="endpoint">GET /all?key=API_KEY</span></li>
-                <li><span class="endpoint">GET /random</span></li>
-                <li><span class="endpoint">GET /filter?type=...</span></li>
-                <li><span class="endpoint">GET /detail/:id</span></li>
-                <li><span class="endpoint">GET /shuffled</span></li>
-                <li><span class="endpoint">POST /regenerate-key</span></li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=all"
+                        >GET /all?key=API_KEY</a
+                    >
+                </li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=random"
+                        >GET /random</a
+                    >
+                </li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=filter"
+                        >GET /filter?type=...</a
+                    >
+                </li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=detail"
+                        >GET /detail/:id</a
+                    >
+                </li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=shuffled"
+                        >GET /shuffled</a
+                    >
+                </li>
+                <li>
+                    <a class="endpoint" href="/pentest?ep=regenerate-key"
+                        >POST /regenerate-key</a
+                    >
+                </li>
             </ul>
         </div>
     </body>
